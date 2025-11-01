@@ -105,6 +105,8 @@ class ItemsViewController: UITableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
         super.viewWillAppear(animated)
 
         tableView.reloadData()

@@ -107,7 +107,7 @@
                             <outletCollection property="gestureRecognizers" destination="iX9-0z-Cjg" appends="YES" id="X6k-J8-Zh5"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="VNG-ES-wcF"/>
+                    <navigationItem key="navigationItem" customizationIdentifier="" id="VNG-ES-wcF"/>
                     <connections>
                         <outlet property="dateLabel" destination="tT8-wr-auA" id="wEA-dk-EON"/>
                         <outlet property="nameField" destination="dhp-h0-k25" id="1oh-ou-7hI"/>
